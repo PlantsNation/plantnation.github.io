@@ -87,19 +87,19 @@ body {
 /* Buttons */
 .btn {
   padding: 0.6rem 1.2rem;
-  border-radius: 4px;
+  border-radius: 50px;
 }
 .btn-sm {
   padding: 0.6rem 1.2rem;
-  border-radius: 4px;
+  border-radius: 50px;
 }
 .btn-md {
   padding: 0.6rem 1.2rem;
-  border-radius: 4px;
+  border-radius: 50px;
 }
 .btn-lg {
   padding: 1rem 2.6rem;
-  border-radius: 4px;
+  border-radius: 50px;
 }
 .bg-primary {
   background-color: #40b0bf !important;
@@ -140,8 +140,8 @@ body {
 }
 .btn-secondary,
 .btn-secondary:active {
-  background-color: #ff6666 !important;
-  border-color: #ff6666 !important;
+  background-color: #000000 !important;
+  border-color: #000000 !important;
   color: #ffffff !important;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
 }
@@ -150,15 +150,15 @@ body {
 .btn-secondary.focus,
 .btn-secondary.active {
   color: #ffffff !important;
-  background-color: #ff0f0f !important;
-  border-color: #ff0f0f !important;
+  background-color: #000000 !important;
+  border-color: #000000 !important;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
 .btn-secondary.disabled,
 .btn-secondary:disabled {
   color: #ffffff !important;
-  background-color: #ff0f0f !important;
-  border-color: #ff0f0f !important;
+  background-color: #000000 !important;
+  border-color: #000000 !important;
 }
 .btn-info,
 .btn-info:active {
@@ -317,13 +317,13 @@ body {
 .btn-secondary-outline:active {
   background-color: transparent !important;
   border-color: transparent;
-  color: #ff6666;
+  color: #000000;
 }
 .btn-secondary-outline:hover,
 .btn-secondary-outline:focus,
 .btn-secondary-outline.focus,
 .btn-secondary-outline.active {
-  color: #ff0f0f !important;
+  color: #000000 !important;
   background-color: transparent!important;
   border-color: transparent!important;
   box-shadow: none!important;
@@ -331,8 +331,8 @@ body {
 .btn-secondary-outline.disabled,
 .btn-secondary-outline:disabled {
   color: #ffffff !important;
-  background-color: #ff6666 !important;
-  border-color: #ff6666 !important;
+  background-color: #000000 !important;
+  border-color: #000000 !important;
 }
 .btn-info-outline,
 .btn-info-outline:active {
@@ -464,7 +464,7 @@ body {
   color: #40b0bf !important;
 }
 .text-secondary {
-  color: #ff6666 !important;
+  color: #000000 !important;
 }
 .text-success {
   color: #40b0bf !important;
@@ -492,7 +492,7 @@ a.text-primary.active {
 a.text-secondary:hover,
 a.text-secondary:focus,
 a.text-secondary.active {
-  color: #ff0000 !important;
+  color: #000000 !important;
 }
 a.text-success:hover,
 a.text-success:focus,
@@ -673,8 +673,8 @@ blockquote {
 }
 .xdsoft_datetimepicker .xdsoft_calendar td:hover,
 .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover {
-  color: #000000 !important;
-  background: #ff6666 !important;
+  color: #ffffff !important;
+  background: #000000 !important;
   box-shadow: none !important;
 }
 .lazy-bg {
@@ -823,10 +823,13 @@ a {
 .cid-snGJHAdSX3 P {
   color: #ffffff;
 }
+.cid-snGJHAdSX3 H5 {
+  color: #ffffff;
+}
 .cid-snGXkHlgZa {
   padding-top: 2rem;
   padding-bottom: 0rem;
-  background-color: #40b0bf;
+  background-color: #2299aa;
 }
 .cid-snGXkHlgZa .mbr-section-title {
   color: #65c6d4;
@@ -1566,7 +1569,7 @@ a {
 .cid-snGgX363EB {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  background-color: #40b0bf;
+  background-color: #65c6d4;
 }
 .cid-snGgX363EB .carousel-item {
   justify-content: center;
@@ -1620,6 +1623,7 @@ a {
 }
 .cid-snGgX363EB .user_text {
   text-align: center;
+  color: #000000;
 }
 .cid-snGgX363EB .user_name {
   color: #ffffff;
@@ -1630,14 +1634,34 @@ a {
   background-color: #ffffff;
 }
 .cid-sncYovwdKL .mbr-section-title {
-  color: #65c6d4;
+  color: #40b0bf;
   text-align: center;
 }
 .cid-sncYovwdKL .mbr-section-subtitle {
   text-align: center;
 }
+.cid-snJAt5DrMz {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+.cid-snJAt5DrMz .mbr-overlay {
+  background-color: #ffffff;
+  opacity: 0.4;
+}
+.cid-snJAt5DrMz form .mbr-section-btn {
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+.cid-snJAt5DrMz form .mbr-section-btn .btn {
+  width: 100%;
+  height: 100%;
+}
+.cid-snJAt5DrMz .mbr-section-title {
+  color: #40b0bf;
+}
 .cid-snH6R1KDFI {
-  padding-top: 1rem;
+  padding-top: 0rem;
   padding-bottom: 1rem;
   background-color: #ffffff;
 }
@@ -1675,5 +1699,5 @@ a {
   color: #000000;
 }
 #instagram-feed-block-1d .inst__title {
-  color: #ffffff;
+  color: #000000;
 }
