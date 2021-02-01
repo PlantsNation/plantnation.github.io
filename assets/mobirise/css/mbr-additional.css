@@ -87,19 +87,19 @@ body {
 /* Buttons */
 .btn {
   padding: 0.6rem 1.2rem;
-  border-radius: 50px;
+  border-radius: 150px;
 }
 .btn-sm {
   padding: 0.6rem 1.2rem;
-  border-radius: 50px;
+  border-radius: 150px;
 }
 .btn-md {
   padding: 0.6rem 1.2rem;
-  border-radius: 50px;
+  border-radius: 150px;
 }
 .btn-lg {
   padding: 1rem 2.6rem;
-  border-radius: 50px;
+  border-radius: 150px;
 }
 .bg-primary {
   background-color: #40b0bf !important;
