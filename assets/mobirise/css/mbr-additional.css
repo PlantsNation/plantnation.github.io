@@ -91,15 +91,15 @@ body {
 }
 .btn-sm {
   padding: 0.6rem 1.2rem;
-  border-radius: 4px;
+  border-radius: 50px;
 }
 .btn-md {
   padding: 0.6rem 1.2rem;
-  border-radius: 4px;
+  border-radius: 50px;
 }
 .btn-lg {
   padding: 1rem 2.6rem;
-  border-radius: 4px;
+  border-radius: 50px;
 }
 .bg-primary {
   background-color: #40b0bf !important;
